@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 </head>
 <body>
-	<table border="2">
+	<table border="2" width="300">
 		<tr>
 			<th>00</th>
 			<th>01</th>
@@ -17,9 +17,12 @@
 			<td>cc</td>
 		</tr>
 		<tr>
-			<td>dd</td>
-			<td>ee</td>
-			<td>ff</td>	
+			<td rowspan="2">dd</td>
+			<td colspan="2">ee</td>
+				
+		</tr>
+		<tr>
+			<td colspan="2">ff</td>
 		</tr>
 	</table>
 </body>
