@@ -1,0 +1,27 @@
+/*.conteudo {
+    border: solid 1px red;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    padding: 20px 15px 10px 5px; top right botton left
+
+    padding: 20px; all
+
+    padding:20px 20px;  top-botton and right-left
+
+    margin-top: 20px;
+
+    width:150px;
+}
+*/
+#noticias {
+    background: blue;
+    padding: 10px;
+}
+
+h2 {
+    border: 1px solid red;
+    padding: 10px;
+}
