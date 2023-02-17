@@ -96,7 +96,13 @@ h3 {
     background: white;
     padding: 10px;
     margin-bottom: 20px;
+    
+}
 
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
 }
 
 #rodape {
@@ -104,8 +110,4 @@ h3 {
     text-align: center;
     padding: 15px;
     background: #ccc;
-}
-
-.texto-lateral {
-    
 }
