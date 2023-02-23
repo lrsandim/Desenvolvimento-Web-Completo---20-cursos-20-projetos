@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Se um seletor for mais específico que outro a regra mais específica será aplicada (terá precedência sobre regras mais gerais) -->
+    <div id="seletorUniversal">
+        <h2>seletor universal</h2>
+        <p>*{}</p>
+        <p>seleciona todos os elementos da página</p>    
+    </div>
+    <div id="seletorDeTexto">
+        <h2>seletor de texto</h2>
+        <p>H1, h2, h3 {}</p>
+        <p>seleciona os elementos h1, h2 e h3</p>
+    </div>
+    <div id="seletorDeClasse">
+        <h2>seletor de classe</h2>
+        <p>.verde p.verde</p>
+        <p>.verde seleciona qualquer elemento cujo atributo class tem o valor "verde"</p>
+        <p>seleciona somente elemento p cujo atributo class tem valor "verde"</p>
+    </div>
+    <div id="seletorDeID">
+        <h2>seletordeid</h2>
+        <p>#</p>
+        <p>seleciona o elemento cujo atributo id tem valor cabecalho</p>
+
+    </div>
+    <div id="seletorDeFilho">
+        <h2>seletor de filho</h2>
+        <p>li>a</p>
+        <p>seleciona quaisquer elemento -a- que são filhos de um elemento -li- (mas não outros elementos -a- na página</p>
+
+    </div>
+    <div id="seletorDeDescendente">
+        <h2>seletor de descendente</h2>
+        <p>p a {}</p>
+        <p>seleciona quaisquer elementos -a- que são filhos de um elemento -p-, mesmo e houver outros elementos aninhados entre ele</p>
+
+    </div>
+    <div id="seletorDeIrmaoAdjacente">
+        <h2>seletor de irmao adjacente</h2>
+        <p>h1+p</p>
+        <p>seleciona o primeiro elemento -p- depois de qualquer elemento -h1- (mas não outros elememtos -p-)</p>
+
+    </div>
+    <div id="seletorDeIrmaoGeral">
+        <h2>seletor de irmao geral</h2>
+        <p>h1~p</p>
+        <p>se houvesse dois elementos -p- que fossem irmãos de um elemento -h1-, essa regra se aplicaria ao dois</p>
+    </div>
+</body>
+</html>
