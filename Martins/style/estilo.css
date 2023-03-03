@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fff;
+    border: 1px solid blue;
+}
+
+/* navbar
+------------------------------ */
+.navbar-brand {
+    padding-left: 58px;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 700;
+}
+
+/* serviços
+------------------------------ */
+#serviço {
+    background: #E5E5E5;
+}
+
+.texto h2 {
+    font-weight: 700;
+    margin: 66px 20px;
+}
+
+.texto h3 {
+    font-weight: 600;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.texto a {
+    background: #FBF428;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 4em;
+}
