@@ -30,8 +30,9 @@
 					<img src="image/Logo.png" alt="">
 				</a>
 
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -63,13 +64,11 @@
 
 	<!-- Banner -->
 	<section id="banner">
-		<div class="container">
-			<img src="image/Banner.png" alt="banner">
-		</div>
+		<img src="image/Banner.png" class="img-fluid" alt="">
 	</section>
 
 	<!-- serviço -->
-	<section id="serviço">
+	<section id="servicos">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -77,19 +76,21 @@
 				</div>
 				<div class="col-md-6 texto">
 
-					<h2>Nosso serviço</h2>
-					
-					<h3>Emissão de Autorizações Especiais de Trânsito (AET)</h3>
-						
+					<h1>Nosso serviço</h1>
+
+					<h2>Emissão de Autorizações Especiais de Trânsito (AET)</h2>
+
 					<p>
-						A Autorização Especial de Trânsito (AET) é um documento de porte obrigatório para veículos de até 30
-						metros de comprimento do tipo rodotrem, bitrem, treminhão, tri-trem, romeu e julieta, entre outras
+						A Autorização Especial de Trânsito (AET) é um documento de porte obrigatório para veículos de
+						até 30
+						metros de comprimento do tipo rodotrem, bitrem, treminhão, tri-trem, romeu e julieta, entre
+						outras
 						composições.
-					</p> 
+					</p>
 					<p>
 						A exigência é necessária porque cada via pública é gerenciada por um Órgão de Trânsito.
-					</p>		
-					
+					</p>
+
 					<a class="btn btn-md btn-custom" href="#">Solicite seu orçamento</a>
 
 				</div>
@@ -99,32 +100,49 @@
 
 	<!-- estrutura -->
 	<section id="estrutura">
-		<div class="container">
-			<img src="image/section2.png" class="img-fluid" alt="">
-		</div>
+		<img src="image/section2.png" class="img-fluid" alt="">
 	</section>
 
 	<!-- sobre -->
 	<section id="sobre">
-		<div class="container" style="background-color: #E5E5E5;">
+		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					<h2>Sobre nós</h2>
+				<div class="col-md-6 lorem">
+					<h1>Sobre nós</h1>
 					<p>
 						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
 						galley of type and scrambled it to make a type specimen book. It has survived not only five
-						centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-						It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-						passages, and more recently with desktop publishing software like Aldus PageMaker including
-						versions of Lorem Ipsum.
+						centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+						has survived not only five centuries, but also the leap into electronic typesetting, remaining
+						essentially unchanged.
+
 					</p>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+						galley of type and scrambled it to make a type specimen book.
+					</p>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+						been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+						galley of type and scrambled it to make a type specimen book. It has survived not only five
+						centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+						has survived not only five centuries, but also the leap into electronic typesetting, remaining
+						essentially unchanged.
+
+					</p>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					</p>
+					<a class="btn btn-md btn-custom" href="#">Conhaça nosso serviço</a>
 				</div>
 				<div class="col-md-6">
 					<a href="">
 						<img src="image/section3up.png" alt="">
-					</a <a href="">
-					<img src="image/section3down.png" alt="">
+					</a>
+					<a href="">
+						<img src="image/section3down.png" alt="">
 					</a>
 				</div>
 			</div>
@@ -132,10 +150,45 @@
 	</section>
 
 	<!-- perceiros -->
-	<section id="parceiros">
+	<section id="parceiros" class="clearfix">
 		<div class="container">
-			<h2>Nossos Parceiros</h2>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<div class="textoparceiros">
+				<h2>Nossos Parceiros</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</div>
+
+			<div id="carouselparceiros" class="carousel slide">
+				<div class="carousel-inner">
+<!-- 					tem css inline aqui, preciso arrumar isso! -->
+					<div class="carousel-item active d-flex" style="justify-content: center; align-items: center;">
+						<div>
+							<img src="image/carousel 1.png" class="img-fluid d-carousel" alt="">
+						</div>
+						<div>
+							<img src="image/carousel 2.png" class="img-fluid d-carousel" alt="">
+						</div>
+						<div>
+							<img src="image/carousel 3.png" class="img-fluid d-carousel" alt="">
+						</div>
+						<div>
+							<img src="image/carousel 4.png" class="img-fluid d-carousel" alt="">
+						</div>
+					</div>
+					<div class="carousel-item">
+						<h1> seja nosso parceiro</h1>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselparceiros"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselparceiros"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
 		</div>
 	</section>
 
