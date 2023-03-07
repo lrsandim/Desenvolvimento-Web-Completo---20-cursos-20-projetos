@@ -8,6 +8,10 @@ body {
     background-color: #fff;
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
 /* navbar
 ------------------------------ */
 .navbar-brand {
@@ -27,18 +31,16 @@ body {
 }
 
 .texto h1 {
-    font-weight: 700;
     text-align: center;
-    font-size: 30px;
-    margin-top: 8%;
-    margin-bottom: 10%;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .texto h2 {
     font-weight: 600;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 7%;
+    margin-bottom: 35px;
 }
 
 .texto p {
@@ -46,7 +48,7 @@ body {
 }
 
 .texto a {
-    margin-top: 30%;
+    margin-top: 150px;
 }
 
 .btn-custom {
@@ -55,11 +57,33 @@ body {
     font-size: 24px;
 }
 
+.btn-custom:hover {
+    background: #212121;
+    color: #FBF428;
+}
+
+/* Nossos Parceiros
+------------------------------ */
+.parceirosstyle {
+    padding: 50px;
+}
+
+#carouselparceiros {
+    padding-bottom: 20px;
+}
+
+.img-caurosel {
+    padding: 39px;
+}
+
+.img-caurosel1 {
+    padding: 15px;
+}
+
+
 /* Sobre nós
 ------------------------------ */
 .lorem h1 {
-    font-weight: 700;
-    font-size: 30px;
     margin-top: 10%;
     margin-bottom: 8%;
 }
@@ -77,8 +101,6 @@ body {
 }
 
 .textoparceiros h2 {
-    font-weight: 700;
-    font-size: 30px;
     padding-top: 20px;
 }
 
@@ -90,16 +112,14 @@ body {
 ------------------------------ */
 .text-center h1 {
     color: #000;
-    font-weight: 700;
-    font-size: 30px;
-    margin: 5% 0;
+    margin: 20px 0;
 }
 
 .inputstyle {
     width:100%;
     color: #707070;
-    margin-bottom: 2%;
-    padding: 10px;
+/*     margin-bottom: 4px; */
+    padding: 5px;
 }
 
 #inputstylespecific {
@@ -107,11 +127,11 @@ body {
 }
 
 .containerfaleconoscostyle {
-    margin-bottom: 5%;
+/*     margin-bottom: 5%; */
 }
 
 .containerfaleconoscostyle a {
-    margin-top: 1%;
+/*     margin-top: 1%; */
 }
 
 /* footer
