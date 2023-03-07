@@ -6,7 +6,6 @@ body {
 
 body {
     background-color: #fff;
-    border: 1px solid blue;
 }
 
 /* navbar
@@ -85,4 +84,58 @@ body {
 
 .d-carousel {
     padding: 0 10% 0 10%;
+}
+
+/* Fala Conosco
+------------------------------ */
+.text-center h1 {
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 5% 0;
+}
+
+.inputstyle {
+    width:100%;
+    color: #707070;
+    margin-bottom: 2%;
+    padding: 10px;
+}
+
+#inputstylespecific {
+    padding-bottom: 90px;
+}
+
+.containerfaleconoscostyle {
+    margin-bottom: 5%;
+}
+
+.containerfaleconoscostyle a {
+    margin-top: 1%;
+}
+
+/* footer
+------------------------------ */
+
+footer{
+    background: #212121;
+    color: #fff;
+}
+
+.spacing {
+    color: #212121;
+    padding-top: 50px;
+}
+
+.grid1footerstyle{
+
+    padding-top: 50px;
+}
+
+.img-style {
+    padding: 5px;
+}
+
+.grid2footerstyle {
+    padding-top: 50px;
 }
