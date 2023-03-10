@@ -42,14 +42,34 @@ p {
 
 /* home
 ------------------------------ */
+#home {
+    background: url(../image/Banner.png);
+}
 
+.banner-custom {
+    height: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.conteudo-banner {
+    color: #fff;
+    text-align: center;
+}
+
+.conteudo-banner h2 {
+    margin: 40px 0;
+}
 
 /* estrutura
 ------------------------------ */
 
 #estrutura {
     background: url(../image/section2.png);
-    background-attachment: fixed;
+/*     background-attachment: fixed; */
     color: #fff;
     padding: 20px 0;
 }
@@ -86,7 +106,7 @@ p {
 }
 
 .texto a {
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .btn-custom {
@@ -126,7 +146,7 @@ p {
 }
 
 .lorem a {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .containersobre-custom {
@@ -154,10 +174,6 @@ p {
 
 .textoparceiros h2 {
     padding-top: 20px;
-}
-
-.d-carousel {
-    padding: 0 10% 0 10%;
 }
 
 /* Fala Conosco
@@ -226,6 +242,10 @@ footer{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* Fala Conosco
+------------------------------ */
+
 
 }
 
@@ -302,5 +322,5 @@ footer{
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    
 }

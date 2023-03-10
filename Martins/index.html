@@ -30,9 +30,8 @@
 					<img src="image/Logo.png" alt="">
 				</a>
 
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-					aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -62,13 +61,15 @@
 		</nav>
 	</header>
 
-	<!-- Banner -->
+	<!-- home -->
 	<section id="home" style="background-image: url('image/Banner.png');">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 banner-custom">
 					<div class="conteudo-banner">
-						<!-- dimensionar altura e largura -->
+						<h1>ACESSORIA EM TRANSPORTES</h1>
+						<h2>Agilidade e Comprimisso com todos os nossos Clientes</h2>
+						<a class="btn btn-md btn-custom" href="#">Fale Conosco</a>
 					</div>
 				</div>
 			</div>
@@ -81,10 +82,10 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="row">
-						<div class="col-md-6">
-							<img src="image/section1.png" class="img-fluid d-none d-md-block imgservico-custom" alt="imagem">
+						<div class="col-lg-6">
+							<img src="image/section1.png" class="img-fluid d-none d-lg-block imgservico-custom" alt="imagem">
 						</div>
-						<div class="col-md-6 texto">
+						<div class="col-lg-6 texto">
 							<h1>Nosso serviço</h1>
 							<h2>Emissão de Autorizações Especiais de <br> Trânsito (AET)</h2>
 							<p>
@@ -122,7 +123,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="row">
-						<div class="col-md-6 lorem">
+						<div class="col-lg-6 lorem">
 							<h1>Sobre nós</h1>
 							<p>
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -131,7 +132,7 @@
 								centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
 								has survived not only five centuries, but also the leap into electronic typesetting, remaining
 								essentially unchanged.
-		
+
 							</p>
 							<p>
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -141,17 +142,17 @@
 							<p>
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 								been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-								galley of type and scrambled it to make a type specimen book. It has survived not only five.		
+								galley of type and scrambled it to make a type specimen book. It has survived not only five.
 							</p>
 							<p>
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 							</p>
 							<a class="btn btn-md btn-custom" href="#">Conhaça nosso serviço</a>
 						</div>
-						<div class="col-md-6">
-							<div>						
-								<img id="img-up" class="img-fluid" src="image/section3up.png" alt="">
-								<img id="img-down" class="img-fluid" src="image/section3down.png" alt="">
+						<div class="col-lg-6">
+							<div>
+								<img id="img-up" class="img-fluid d-none d-lg-block" src="image/section3up.png" alt="">
+								<img id="img-down" class="img-fluid d-none d-lg-block" src="image/section3down.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -183,13 +184,11 @@
 						<img src="image/carousel4.png" class="img-caurosel1" alt="">
 					</div>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselparceiros"
-					data-bs-slide="prev">
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselparceiros" data-bs-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Previous</span>
 				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselparceiros"
-					data-bs-slide="next">
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselparceiros" data-bs-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="visually-hidden">Next</span>
 				</button>
@@ -204,26 +203,31 @@
 		</div>
 		<div class="container containerfaleconoscostyle">
 			<div class="row">
-				<div class="col-6">
-					<img src="image/mapa.png" class="img-fluid" alt="">
-				</div>
-				<div class="col-6">
-					<p>
-						Preencha o formulário abaixo com seus dados. Retornaremos seu contato assim que possível.
-					</p>
-					<form action="">
-						<h2>E-mail</h2>
-						<input class="inputstyle" type="email" value="elizandrasores@exemplo.com">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-lg-6 mapa">
+							<img src="image/mapa.png" class="img-fluid" alt="">
+						</div>
+						<div class="col-lg-6">
+							<p>
+								Preencha o formulário abaixo com seus dados. Retornaremos seu contato assim que possível.
+							</p>
+							<form action="">
+								<h2>E-mail</h2>
+								<input class="inputstyle" type="email" value="elizandrasores@exemplo.com">
 
-						<h2>Telefone</h2>
-						<input class="inputstyle" type="tel" value="(00)9 9999-9999">
+								<h2>Telefone</h2>
+								<input class="inputstyle" type="tel" value="(00)9 9999-9999">
 
-						<h2>Escreva uma mensagem</h2>
-						<input id="inputstylespecific" class="inputstyle" type="text" value="Deixe sua mensagem...">
-					</form>
-					<a class="btn btn-md btn-custom" href="#">Fale conosco</a>
+								<h2>Escreva uma mensagem</h2>
+								<input id="inputstylespecific" class="inputstyle" type="text" value="Deixe sua mensagem...">
+							</form>
+							<a class="btn btn-md btn-custom" href="#">Fale conosco</a>
+						</div>
+					</div>
 				</div>
 			</div>
+
 		</div>
 	</section>
 
