@@ -232,26 +232,141 @@ footer{
 ------------------------------ */
 
 @media (max-width: 575.98px) {
+    /* servico 
+--------------------------- */
+.media-md {
+    display: flex;
+}
+
+.texto a {
+    margin: 20px auto;
+}
+
+.btn-custom {
+    display: block;
+    margin: 20px auto;
+    background: #FBF428;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* sobre 
+--------------------------- */
+.lorem a {
+    margin: 20px auto;
+}
+
+    /* Fala Conosco
+------------------------------ */
+
+.containerfaleconoscostyle a {
+    margin: 20px auto;
+}
+
+.mapa {
+    display: flex;
+}
+
+#img-mapa {
+    display: block;
+    margin: 10px auto;
+    
+}
 
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+/* servico 
+--------------------------- */
+.media-md {
+    display: flex;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+.texto a {
+    margin: 20px auto;
+}
+
+.btn-custom {
+    display: block;
+    margin: 20px auto;
+    background: #FBF428;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* sobre 
+--------------------------- */
+.lorem a {
+    margin: 20px auto;
+}
 
     /* Fala Conosco
 ------------------------------ */
 
+.containerfaleconoscostyle a {
+    margin: 20px auto;
+}
 
+.mapa {
+    display: flex;
+}
+
+#img-mapa {
+    display: block;
+    margin: 10px auto;
+    
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* servico 
+--------------------------- */
+.media-md {
+    display: flex;
+}
+
+.texto a {
+    margin: 20px auto;
+}
+
+.btn-custom {
+    display: block;
+    margin: 20px auto;
+    background: #FBF428;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* sobre 
+--------------------------- */
+.lorem a {
+    margin: 20px auto;
+}
+
+    /* Fala Conosco
+------------------------------ */
+
+.containerfaleconoscostyle a {
+    margin: 20px auto;
+}
+
+.mapa {
+    display: flex;
+}
+
+#img-mapa {
+    display: block;
+    margin: 10px auto;
+    
+}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-/* servico 
+
+    /* servico 
 --------------------------- */
 .texto h1 {
     margin-top: 28px;

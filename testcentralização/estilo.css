@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    border: 1px solid red;
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    margin: auto;
+}
