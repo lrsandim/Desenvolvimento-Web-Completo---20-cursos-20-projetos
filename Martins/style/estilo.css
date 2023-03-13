@@ -1,12 +1,6 @@
-html,
-body {
-    height: 100%;
-/*     overflow-x: hidden; */
-}
 
 body {
     background-color: #fff;
-    max-width: 1440px;
 }
 
 h1 {
@@ -42,8 +36,11 @@ p {
 
 /* home
 ------------------------------ */
-#home {
+#home{
     background: url(../image/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .banner-custom {
@@ -69,7 +66,9 @@ p {
 
 #estrutura {
     background: url(../image/section2.png);
-/*     background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 20px 0;
 }
@@ -149,9 +148,6 @@ p {
     margin-top: 150px;
 }
 
-.containersobre-custom {
-    padding: 20px 0;
-}
 
 #img-up {
     position: relative;
